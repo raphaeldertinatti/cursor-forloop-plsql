@@ -15,6 +15,7 @@ In MySQL for example you can do updates using inner joins between tables, but yo
 
 The basic syntax of the **CURSOR** and **FORLOOP** statements is as follows:
 
+- Update:
 ```
 DECLARE 
 CURSOR C IS SELECT field1, field2
@@ -28,10 +29,7 @@ end loop;
 end;
 ```
 
-> INSERT with Cursor/ForLoop.
-
-You can also do inserts with the same method as below:
-
+- Insert:
 ```
 DECLARE 
 CURSOR C IS SELECT field1, field2
