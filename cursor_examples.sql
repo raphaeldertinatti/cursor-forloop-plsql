@@ -1,4 +1,4 @@
--- Cursor Examples
+-- Cursor Examples.
 
 -- One Cursor Update.
 DECLARE 
