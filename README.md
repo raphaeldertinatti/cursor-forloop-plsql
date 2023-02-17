@@ -54,10 +54,8 @@ The syntax of multiple **CURSORS** and **FORLOOPS** statements is as follows:
 - Insert:
 ```
 DECLARE 
-	CURSOR C1 IS SELECT field1 FROM table1; 
-	
+	CURSOR C1 IS SELECT field1 FROM table1; 	
 	CURSOR C2 IS SELECT field1 FROM table2;
-
 BEGIN
 	FOR T1 IN C1 
 		LOOP
@@ -74,10 +72,8 @@ END;
 - Update:
 ```
 DECLARE 
-	CURSOR C1 IS SELECT field1 FROM table1; 
-	
+	CURSOR C1 IS SELECT field1 FROM table1; 	
 	CURSOR C2 IS SELECT field1 FROM table2;
-
 BEGIN
 	FOR T1 IN C1 
 		LOOP
