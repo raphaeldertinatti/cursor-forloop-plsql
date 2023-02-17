@@ -88,5 +88,5 @@ END;
 
 ### Conclusion.
 
-These methods provides much more flexibility to manipulate data from many different tables, allowing comples updates and inserts going more efficient.
+These methods provides much more flexibility to manipulate data from many different tables, allowing complex updates and inserts going more efficient.
 
