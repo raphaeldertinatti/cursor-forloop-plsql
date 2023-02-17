@@ -28,5 +28,5 @@ end loop;
 commit;
 end;
 ```
-We know that is possible to use the For Loop without the cursor declaration, and you can just put the table1 in this example inside the FOR LOOP without cursor, but in this case you must to declare a variable to exit the loop, using the cursor the loop will persistis until the last data inside **"C"**, this is why i like this approach for this kind of update.
+We know that is possible to use the **FOR LOOP** statement without the cursor declaration, and you can just put the table1 (in this example) inside the FOR LOOP without cursor, but in this case you must to declare a variable to exit the loop, using the cursor the loop will persistis until the last data inside **"C"**, this is why i like this approach for this kind of update.
 
