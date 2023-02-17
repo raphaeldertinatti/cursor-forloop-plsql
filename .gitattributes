@@ -1,1 +1,1 @@
-*.plsql linguist-detectable=true
+*.sql linguist-detectable=true
