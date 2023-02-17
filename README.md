@@ -57,15 +57,15 @@ DECLARE
 	CURSOR C1 IS SELECT field1 FROM table1; 	
 	CURSOR C2 IS SELECT field1 FROM table2;
 BEGIN
-	FOR T1 IN C1 
-		LOOP
-			FOR T2 IN C2 
-				LOOP
-					 INSERT INTO table3 (field1, field2) 
-					  VALUES 
-					  (t1.field1, t2.field1); 						 					  
-			END LOOP;
-		END LOOP;
+ FOR T1 IN C1 
+  LOOP
+   FOR T2 IN C2 
+    LOOP
+	 INSERT INTO table3 (field1, field2) 
+	 VALUES 
+	 t1.field1, t2.field1); 						 					  
+  END LOOP;
+ END LOOP;
 END;
 ```
 
@@ -75,14 +75,14 @@ DECLARE
 	CURSOR C1 IS SELECT field1 FROM table1; 	
 	CURSOR C2 IS SELECT field1 FROM table2;
 BEGIN
-	FOR T1 IN C1 
-		LOOP
-			FOR T2 IN C2 
-				LOOP
-                    UPDATE table3 set field1 = t1.field1,
-                    field2 = t2.field1;						 					  
-			END LOOP;
-		END LOOP;
+ FOR T1 IN C1 
+  LOOP
+   FOR T2 IN C2 
+    LOOP
+     UPDATE table3 set field1 = t1.field1,
+     field2 = t2.field1;						 					  
+  END LOOP;
+ END LOOP;
 END;
 ```
 
