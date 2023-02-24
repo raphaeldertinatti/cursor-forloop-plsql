@@ -11,7 +11,7 @@ In situations that you need to update data from a table, using data that exists 
 
 In MySQL for example you can do updates using inner joins between tables, but you can't do this in PL/SQL. So one of the most efficient approaches in my opinion is to use the Cursor and For Loop feature.
 
-### Simple Update with Cursor/ForLoop.
+### Using Cursor/ForLoop.
 
 The basic syntax of the **CURSOR** and **FORLOOP** statements is as follows:
 
